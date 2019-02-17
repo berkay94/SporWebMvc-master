@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "AnaSayfa";
+}
+
+@if (Session["Id"] != null)
+{
+    <h4>Hosgeldin @Session["Email"].ToString()</h4>
+}
+
